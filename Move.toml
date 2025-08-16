@@ -1,0 +1,16 @@
+[package]
+name = "homework-submission-hashes"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x700567a6d9caad1349d02c65be6716cbd4c6f5f22fdc077ac1276512e2c982ad"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
